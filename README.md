@@ -97,10 +97,9 @@ As per below statement on support, I'll look at pull requests and see if changes
 
 ## Videos
 [![Work in Progress 1](https://img.youtube.com/vi/iO9MAHb0w2w/maxresdefault.jpg)](https://youtu.be/iO9MAHb0w2w)
-[Work in Progress 1](https://youtu.be/iO9MAHb0w2w)
-[Work in Progress 2](https://youtu.be/z-Wwcj_KhCc)
-[Work in Progress 3](https://youtu.be/d4LbZcDJTsA)
-[Work in Progress 4](https://youtu.be/Ob64b8ItL4o)
+[![Work in Progress 2](https://img.youtube.com/vi/z-Wwcj_KhCc/maxresdefault.jpg)](https://youtu.be/z-Wwcj_KhCc)
+[![Work in Progress 3](https://img.youtube.com/vi/d4LbZcDJTsA/maxresdefault.jpg)](https://youtu.be/d4LbZcDJTsA)
+[![Work in Progress 4](https://img.youtube.com/vi/Ob64b8ItL4o/maxresdefault.jpg)](https://youtu.be/Ob64b8ItL4o)
 
 # Support
 
