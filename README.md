@@ -6,7 +6,7 @@ This Github repo contains the 2.0 version of my Formation Movement scripts rebui
 * Preset formation shapes (easily expanded with your own).
 * Changing formation on route. Includes a trigger class to change the formation.
 * Evasion if formation followers get stuck on terrain features
-The scripts are free to use, feel free to ask questions or make pull requests but don’t expect on the spot support.
+The scripts are free to use (see the license), feel free to ask questions or make pull requests but don’t expect on the spot support.
 
 # Pre-requisites
 * If you want to make use of the Formation Animation Movement script (FormationAnimation.cs) then first download and import the Animation Controller into your project from: https://docs.unity3d.com/Manual/nav-CouplingAnimationAndNavigation.html
@@ -80,6 +80,31 @@ In the Formation Agent script at the Cylinder from the hierarch into the Destina
 ![Environment](/Images/f11.png) 
  
 **Now run the scene!**
+
+# Additional Instructions
+
+## AStarPathfinding
+
+## Movement Animation
+
+## Documentation
+
+All scripts contain documentation which I think are sufficient to explain how this version of the Formation Movement works.
+
+## Pull Requests
+
+As per below statement on support, I'll look at pull requests and see if changes/fixes you propose should be merged. Please note that I'm not a full time Unity developer so I'll need to do this outside working hours and in the weekend. Any request may be delayed.
+
+## Videos
+
+[Work in Progress 1](https://youtu.be/iO9MAHb0w2w)
+[Work in Progress 2](https://youtu.be/z-Wwcj_KhCc)
+[Work in Progress 3](https://youtu.be/d4LbZcDJTsA)
+[Work in Progress 4](https://youtu.be/Ob64b8ItL4o)
+
+# Support
+
+The scripts are free to use (see the license), feel free to ask questions or make pull requests but don’t expect on the spot support. The best place to ask questions is to leave a comment in my [YouTube Channel](https://www.youtube.com/channel/UCWvtBWJSKiZuv1dTvEPx7OA). I'd appreciate it if you subscribe to the channel and like the Formation Movement videos if you plan to use this code.
 
 
 
