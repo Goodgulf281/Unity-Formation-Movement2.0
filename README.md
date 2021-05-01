@@ -95,7 +95,15 @@ The Seeker and AIDestinationSetter scripts are part of the AStarPathfinding solu
 
 ## Movement Animation
 
+To use movement animation make sure you first import the Unity package mentioned in the pre-requisites section. It contains the animations and locomotion controller used by the FormationAnimation script you can add to the prefabs used by the formation leader and followers:
+
 ![Environment](/Images/f19.png)
+
+![Environment](/Images/f21.png)
+
+A typical setup of the script for the prefabs looks like this:
+
+![Environment](/Images/f20.png)
 
 ## Documentation
 
