@@ -120,11 +120,6 @@ namespace Goodgulf.Formation
                 Debug.LogError("<b>Formation.Awake():</b> Could not find AIBase component.");
             }
 #endif
-            if (formationLeader != null)
-            {
-                formationLeader.SetFormation(this);
-            }
-            else Debug.LogWarning("<b>Formation.Awake():</b> No formation leader has been assigned.");
         }
 
 #if GDG_A
@@ -157,6 +152,11 @@ namespace Goodgulf.Formation
         // Start is called before the first frame update
         void Start()
         {
+            if (formationLeader != null)
+            {
+                formationLeader.SetFormation(this);
+            }
+            else Debug.LogWarning("<b>Formation.Start():</b> No formation leader has been assigned.");
 #if GDG_A
             // Add event when target is reached. This is the best way to stop the followers moving/animation when the formation reached its destination.
             // For this to work I created a new class AIPathWithEvents which inherits from AIPath and implements the event.
