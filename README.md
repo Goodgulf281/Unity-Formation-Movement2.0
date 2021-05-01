@@ -96,7 +96,7 @@ All scripts contain documentation which I think are sufficient to explain how th
 As per below statement on support, I'll look at pull requests and see if changes/fixes you propose should be merged. Please note that I'm not a full time Unity developer so I'll need to do this outside working hours and in the weekend. Any request may be delayed.
 
 ## Videos
-
+[![Work in Progress 1](https://img.youtube.com/vi/iO9MAHb0w2w/maxresdefault.jpg)](https://youtu.be/iO9MAHb0w2w)
 [Work in Progress 1](https://youtu.be/iO9MAHb0w2w)
 [Work in Progress 2](https://youtu.be/z-Wwcj_KhCc)
 [Work in Progress 3](https://youtu.be/d4LbZcDJTsA)
