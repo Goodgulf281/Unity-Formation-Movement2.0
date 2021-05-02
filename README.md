@@ -105,7 +105,7 @@ A typical setup of the script for the prefabs looks like this:
 
 ![Environment](/Images/f20.png)
 
-Basically the FormationAnimation script calculates the speed of the object and sets the Animation Controller's parameters based on the speed of the object. An animation blend tree mixes the animations (contained in teh Unity download) for the object. This works best for a humanoid character.
+Basically the FormationAnimation script calculates the speed of the object and sets the Animation Controller's parameters based on the speed of the object. An animation blend tree mixes the animations (contained in teh Unity download) for the object. This works best for a humanoid character. The Audio Source contains the sound clip which will be played when the object is moving (in this case marching boots).
 
 ## Documentation
 
