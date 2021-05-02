@@ -91,7 +91,7 @@ Select the option "Set Navigation to AStarPathfinding" and wait for the compilat
 ![Environment](/Images/f17.png)
 ![Environment](/Images/f18.png)
 
-The Seeker and AIDestinationSetter scripts are part of the AStarPathfinding solution. AIPathWithEvents inherits from AStarPathfinding's AIPath script. 
+The Seeker and AIDestinationSetter scripts are part of the AStarPathfinding solution. AIPathWithEvents inherits from AStarPathfinding's AIPath script; it adds an event to indicate the formation reached its destination. 
 
 ## Movement Animation
 
@@ -104,6 +104,8 @@ To use movement animation make sure you first import the Unity package mentioned
 A typical setup of the script for the prefabs looks like this:
 
 ![Environment](/Images/f20.png)
+
+Basically the FormationAnimation script calculates the speed of the object and sets the Animation Controller's parameters based on the speed of the object. An animation blend tree mixes the animations (contained in teh Unity download) for the object. This works best for a humanoid character.
 
 ## Documentation
 
