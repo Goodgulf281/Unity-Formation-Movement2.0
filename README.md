@@ -86,7 +86,7 @@ In the Formation Agent script at the Cylinder from the hierarch into the Destina
 ## AStarPathfinding
 
 After importing AStarPathfinding into your project, change the Formation to support AStartPathfinding by opening the Formation Setup (menu Window | Goodgulf | Formation Setup).
-Select the option "Set Navigation to AStarPathfinding" and wait for the compilation of the code to finish. Use your regular AStarPathfinding workflow to add navigation to your terrain. You can use the Formation Setup menu to create a new Formation and Leader using AStarPathfinding or manually add the components. This is what the Formation object can look like:
+Select the option "Set Navigation to AStarPathfinding" and wait for the compilation of the code to finish. Use your regular AStarPathfinding workflow to add navigation to your terrain. Don't forget to add any obstacle to the Obstacles Layer. You can use the Formation Setup menu to create a new Formation and Leader using AStarPathfinding or manually add the components. This is what the Formation object can look like:
 
 ![Environment](/Images/f17.png)
 ![Environment](/Images/f18.png)
