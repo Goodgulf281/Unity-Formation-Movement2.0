@@ -13,6 +13,9 @@ The scripts are free to use (see the license), feel free to ask questions or mak
 * If you prefer AStarPathfinding over Unity NavMesh then install the AStarPathfinding asset (https://arongranberg.com/astar/) and enable this option in Formation Movement 2.0 (it’s disabled by default, see below).
 
 # Quick start guide (Unity NavMesh)
+Below script lists the steps explained in this video.
+
+[![Tutorial](https://img.youtube.com/vi/XO4WdADkrg0/maxresdefault.jpg)](https://youtu.be/XO4WdADkrg0)
 
 Create an environment for the formation to walk on.
 
