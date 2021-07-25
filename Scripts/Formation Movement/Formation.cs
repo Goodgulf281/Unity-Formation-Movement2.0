@@ -196,6 +196,16 @@ namespace Goodgulf.Formation
             }
         }
 
+
+        // NEW METHOD
+        // Add an object (with FormationFollower component attached to it) to the list of formation objects.
+        // Use this function to dynamically add objects to formation. Once added call the ChangeFormation
+        //  method to update the formation to reflect the new follower.
+        public void AddFormationObject(GameObject go)
+        {
+            formationObjects.Add(go);
+        }
+
         // Update is called once per frame
         void FixedUpdate()
         {

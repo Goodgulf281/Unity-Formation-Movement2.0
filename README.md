@@ -8,6 +8,11 @@ This Github repo contains the 2.0 version of my Formation Movement scripts rebui
 * Evasion if formation followers get stuck on terrain features
 The scripts are free to use (see the license), feel free to ask questions or make pull requests but don’t expect on the spot support.
 
+# Version History
+
+* Version 2.0 - Original upload
+* Version 2.1 - Bug fix to solve a bug caused by FormationLeader.Start() called before Formation.Start(). Included FormationAddFollwerTrigger utility class and small update to Formation class which allows dynamically adding followers to the formation (as suggested by Adebanji I. in Youtube channel comments). Added a Formation Sample project (Unity 2020.3); open the "Formation Example 2" scene. 
+
 # Pre-requisites
 * If you want to make use of the Formation Animation Movement script (FormationAnimation.cs) then first download and import the Animation Controller into your project from: https://docs.unity3d.com/Manual/nav-CouplingAnimationAndNavigation.html
 * If you prefer AStarPathfinding over Unity NavMesh then install the AStarPathfinding asset (https://arongranberg.com/astar/) and enable this option in Formation Movement 2.0 (it’s disabled by default, see below).

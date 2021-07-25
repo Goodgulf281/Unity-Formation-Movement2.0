@@ -82,13 +82,16 @@ namespace Goodgulf.Formation
         void Start()
         {
 #if GDG_A
+            // Todo: this code can potentially fail if FormationLeader.Start() is called before Formation.Start()
+            
             aibase = formation.GetAIBase();
             if (aibase == null)
             {
                 Debug.LogError("<b>FormationLeader.Awake():</b> Could not find AIBase component.");
             }
 #endif
-            trFormation = formation.transform;
+            // This code can potentially fail if FormationLeader.Start() is called before Formation.Start()
+            // trFormation = formation.transform;
         }
 
 
@@ -124,6 +127,21 @@ namespace Goodgulf.Formation
                 tr.position = trFormation.position;
                 tr.rotation = trFormation.rotation;
             }
+            else
+            {
+                // This is a fix for the potential issue which arises when FormationLeader.Start() is called before Formation.Start()
+                if(formation)
+                {
+                    trFormation = formation.transform;
+                    return; // We'll just start one frame later
+                }
+                else
+                {
+                    // ERROR
+                    Debug.LogError("<b>FormationLeader.FixedUpdate():</b> formation reference is zero.");
+                }
+            }
+
 
             if (formation.targetReached)
                 return; // We arrived at destination so stop calculating
