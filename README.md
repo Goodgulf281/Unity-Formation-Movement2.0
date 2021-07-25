@@ -11,7 +11,7 @@ The scripts are free to use (see the license), feel free to ask questions or mak
 # Version History
 
 * Version 2.0 - Original upload
-* Version 2.1 - Bug fix to solve a bug caused by FormationLeader.Start() called before Formation.Start(). Included FormationAddFollwerTrigger utility class and small update to Formation class which allows dynamically adding followers to the formation (as suggested by Adebanji I. in Youtube channel comments).  
+* Version 2.1 - Bug fix to solve a bug caused by FormationLeader.Start() called before Formation.Start(). Included FormationAddFollwerTrigger utility class and small update to Formation class which allows dynamically adding followers to the formation (as suggested by Adebanji I. in Youtube channel comments). Added a Formation Sample project (Unity 2020.3); open the "Formation Example 2" scene. 
 
 # Pre-requisites
 * If you want to make use of the Formation Animation Movement script (FormationAnimation.cs) then first download and import the Animation Controller into your project from: https://docs.unity3d.com/Manual/nav-CouplingAnimationAndNavigation.html
